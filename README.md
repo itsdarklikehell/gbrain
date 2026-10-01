@@ -453,3 +453,16 @@ MIT. I built GBrain to run my OpenClaw and Hermes deployments — the production
 Origin story: [`docs/ethos/ORIGIN.md`](docs/ethos/ORIGIN.md).
 
 Community PR contributors are credited in `CHANGELOG.md` per release. Attribution for the retired provider's historical embedding and reranker integration remains in Git at `6040075c6cb95be5881cc2e1b76ef7d71f4e5d29`. Voyage AI for the asymmetric-encoding recipe template. Ramp Labs for the search quality improvements lineage.
+
+## :film_projector: Development visualization
+
+Bekijk de [Gource development video](https://github.com/itsdarklikehell/gbrain/releases) voor een visuele tijdlijn van de projectgeschiedenis.
+
+Om de video lokaal te genereren:
+```bash
+gource -1920x1080 --auto-skip-seconds 1 -o gource.ppm
+ffmpeg -y -r 60 -i gource.ppm -c:v libx264 -preset slow -crf 18 -pix_fmt yuv420p gource.mp4
+```
+
+De GitHub Actions workflow (`.github/workflows/gource.yaml`) genereert de video automatisch bij elke release.
+
