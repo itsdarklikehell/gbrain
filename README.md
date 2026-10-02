@@ -1,5 +1,11 @@
 # GBrain
 
+
+[![CI](https://github.com/itsdarklikehell/gbrain/actions/workflows/ci.yml/badge.svg)](https://github.com/itsdarklikehell/gbrain/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/itsdarklikehell/gbrain)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+
 **Give the agent you already use a memory you control.** GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enrichment when you need them.
 
 **Keep skills beside knowledge.** New local brains include memory skills in their
